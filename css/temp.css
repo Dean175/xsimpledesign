@@ -1,0 +1,334 @@
+#popular-posts ul li a { 
+	background: url("img/XsimpledesignIMG.png");
+	display:inline-block;
+ 	width:3em; height:3em;
+ 	overflow:hidden;
+ 	border-radius: 100%;
+ 	/*transform: rotate(45deg);
+ 	-ms-transform: rotate(45deg);  IE 9 
+ 	-webkit-transform: rotate(45deg);  Safari and Chrome 
+ 	position:relative;*//**/
+ 
+ 	/* non-essential styling 
+ 	-webkit-box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, .05);
+ 	box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, .05);*/
+}
+
+#popular-posts ul li a img {
+	/*border-radius: 100%;*/
+	transform: rotate(-45deg);
+ 	-ms-transform: rotate(-45deg); /* IE 9 */
+ 	-webkit-transform: rotate(-45deg); /* Safari and Chrome */
+ 	position:absolute;
+ 	top:-100px;
+ 	left:-100px;
+}
+
+
+
+#popular-posts h3 {
+	display: block;
+	margin-bottom: 2%;
+}
+
+.pp-container {
+	background-color: DodgerBlue;
+}
+
+.pp-container a {
+	/*background-color: DeepPink;*/
+	/*display: inline-block;*/
+	float: left;
+}
+
+.pp-info {
+	background-color: DarkSlateGray;
+	display: block;
+
+}
+
+.pp-container {
+	margin-bottom: 4%;
+	padding: 3% 0%;/*2%*/
+	border-bottom: 1px solid white;
+	/*display: block;*/
+	background: green;
+}
+
+.pp-container:last-child {
+	border-bottom: none;
+	display: inline-block;
+}
+
+.pp-container a {
+	display: table;
+	overflow: hidden;
+	float: left;
+	margin-right: 0;/*5%*/
+	margin-top: 0;/*5.5%*/
+	background: white;
+}
+
+.pp-info {
+	/*float: left;*/
+	/*display: block;*/
+}
+
+.pp-container p {
+	margin: 0;
+}
+
+.pp-container div img {
+	border-radius: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+#recent-posts ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: orange;
+	display: flex;
+}
+
+#recent-posts ul li {
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+/*************************************
+	webfonts
+*************************************/
+
+@font-face {
+    font-family: 'crimson_textbold';
+    src: url('webfonts/crimsontext-bold-webfont.eot');
+    src: url('webfonts/crimsontext-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/crimsontext-bold-webfont.woff') format('woff'),
+         url('webfonts/crimsontext-bold-webfont.ttf') format('truetype'),
+         url('webfonts/crimsontext-bold-webfont.svg#crimson_textbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'crimson_textsemibold';
+    src: url('webfonts/crimsontext-semibold-webfont.eot');
+    src: url('webfonts/crimsontext-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/crimsontext-semibold-webfont.woff') format('woff'),
+         url('webfonts/crimsontext-semibold-webfont.ttf') format('truetype'),
+         url('webfonts/crimsontext-semibold-webfont.svg#crimson_textsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'droid_serifregular';
+    src: url('webfonts/droidserif-webfont.eot');
+    src: url('webfonts/droidserif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/droidserif-webfont.woff') format('woff'),
+         url('webfonts/droidserif-webfont.ttf') format('truetype'),
+         url('webfonts/droidserif-webfont.svg#droid_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'droid_serifbold';
+    src: url('webfonts/droidserif-bold-webfont.eot');
+    src: url('webfonts/droidserif-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/droidserif-bold-webfont.woff') format('woff'),
+         url('webfonts/droidserif-bold-webfont.ttf') format('truetype'),
+         url('webfonts/droidserif-bold-webfont.svg#droid_serifbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dejavu_serifbook';
+    src: url('webfonts/dejavuserif-webfont.eot');
+    src: url('webfonts/dejavuserif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/dejavuserif-webfont.woff') format('woff'),
+         url('webfonts/dejavuserif-webfont.ttf') format('truetype'),
+         url('webfonts/dejavuserif-webfont.svg#dejavu_serifbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dejavu_serifbold';
+    src: url('webfonts/dejavuserif-bold-webfont.eot');
+    src: url('webfonts/dejavuserif-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/dejavuserif-bold-webfont.woff') format('woff'),
+         url('webfonts/dejavuserif-bold-webfont.ttf') format('truetype'),
+         url('webfonts/dejavuserif-bold-webfont.svg#dejavu_serifbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'dejavu_serifcondensed';
+    src: url('webfonts/dejavuserifcondensed-webfont.eot');
+    src: url('webfonts/dejavuserifcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/dejavuserifcondensed-webfont.woff') format('woff'),
+         url('webfonts/dejavuserifcondensed-webfont.ttf') format('truetype'),
+         url('webfonts/dejavuserifcondensed-webfont.svg#dejavu_serifcondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'droid_sans_monoregular';
+    src: url('webfonts/droidsansmono-webfont.eot');
+    src: url('webfonts/droidsansmono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/droidsansmono-webfont.woff') format('woff'),
+         url('webfonts/droidsansmono-webfont.ttf') format('truetype'),
+         url('webfonts/droidsansmono-webfont.svg#droid_sans_monoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('webfonts/alexbrush-regular-webfont.eot');
+    src: url('webfonts/alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/alexbrush-regular-webfont.woff') format('woff'),
+         url('webfonts/alexbrush-regular-webfont.ttf') format('truetype'),
+         url('webfonts/alexbrush-regular-webfont.svg#alex_brushregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'allerbold';
+    src: url('webfonts/aller_bd-webfont.eot');
+    src: url('webfonts/aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/aller_bd-webfont.woff') format('woff'),
+         url('webfonts/aller_bd-webfont.ttf') format('truetype'),
+         url('webfonts/aller_bd-webfont.svg#allerbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'aller_lightregular';
+    src: url('webfonts/aller_lt-webfont.eot');
+    src: url('webfonts/aller_lt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/aller_lt-webfont.woff') format('woff'),
+         url('webfonts/aller_lt-webfont.ttf') format('truetype'),
+         url('webfonts/aller_lt-webfont.svg#aller_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'allerregular';
+    src: url('webfonts/aller_rg-webfont.eot');
+    src: url('webfonts/aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/aller_rg-webfont.woff') format('woff'),
+         url('webfonts/aller_rg-webfont.ttf') format('truetype'),
+         url('webfonts/aller_rg-webfont.svg#allerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'aller_displayregular';
+    src: url('webfonts/allerdisplay-webfont.eot');
+    src: url('webfonts/allerdisplay-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/allerdisplay-webfont.woff') format('woff'),
+         url('webfonts/allerdisplay-webfont.ttf') format('truetype'),
+         url('webfonts/allerdisplay-webfont.svg#aller_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'exobold';
+    src: url('webfonts/exo-bold-webfont.eot');
+    src: url('webfonts/exo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/exo-bold-webfont.woff') format('woff'),
+         url('webfonts/exo-bold-webfont.ttf') format('truetype'),
+         url('webfonts/exo-bold-webfont.svg#exobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'exolight';
+    src: url('webfonts/exo-light-webfont.eot');
+    src: url('webfonts/exo-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/exo-light-webfont.woff') format('woff'),
+         url('webfonts/exo-light-webfont.ttf') format('truetype'),
+         url('webfonts/exo-light-webfont.svg#exolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'exoregular';
+    src: url('webfonts/exo-regular-webfont.eot');
+    src: url('webfonts/exo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/exo-regular-webfont.woff') format('woff'),
+         url('webfonts/exo-regular-webfont.ttf') format('truetype'),
+         url('webfonts/exo-regular-webfont.svg#exoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+@font-face {
+    font-family: 'overpassbold';
+    src: url('webfonts/overpass_bold-webfont.eot');
+    src: url('webfonts/overpass_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/overpass_bold-webfont.woff') format('woff'),
+         url('webfonts/overpass_bold-webfont.ttf') format('truetype'),
+         url('webfonts/overpass_bold-webfont.svg#overpassbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'capture_itregular';
+    src: url('webfonts/capture_it-webfont.eot');
+    src: url('webfonts/capture_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/capture_it-webfont.woff') format('woff'),
+         url('webfonts/capture_it-webfont.ttf') format('truetype'),
+         url('webfonts/capture_it-webfont.svg#capture_itregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'capture_it_2regular';
+    src: url('webfonts/capture_it_2-webfont.eot');
+    src: url('webfonts/capture_it_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/capture_it_2-webfont.woff') format('woff'),
+         url('webfonts/capture_it_2-webfont.ttf') format('truetype'),
+         url('webfonts/capture_it_2-webfont.svg#capture_it_2regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'newrockerregular';
+    src: url('webfonts/newrocker-regular-webfont.eot');
+    src: url('webfonts/newrocker-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/newrocker-regular-webfont.woff') format('woff'),
+         url('webfonts/newrocker-regular-webfont.ttf') format('truetype'),
+         url('webfonts/newrocker-regular-webfont.svg#newrockerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

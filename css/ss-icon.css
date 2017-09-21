@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'social-icon';
+	src:url('webfonts/ss-icon-webfonts/social-icon.eot?-d2ktg5');
+	src:url('webfonts/ss-icon-webfonts/social-icon.eot?#iefix-d2ktg5') format('embedded-opentype'),
+		url('webfonts/ss-icon-webfonts/social-icon.woff?-d2ktg5') format('woff'),
+		url('webfonts/ss-icon-webfonts/social-icon.ttf?-d2ktg5') format('truetype'),
+		url('webfonts/ss-icon-webfonts/social-icon.svg?-d2ktg5#social-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="ss-icon-"], [class*=" ss-icon-"] {
+	font-family: 'social-icon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ss-icon-googleplus:before {
+	content: "\e60c";
+}
+.ss-icon-facebook:before {
+	content: "\e600";
+}
+.ss-icon-twitter:before {
+	content: "\e601";
+}
+.ss-icon-feed:before {
+	content: "\e602";
+}
+.ss-icon-youtube:before {
+	content: "\e603";
+}
+.ss-icon-vimeo:before {
+	content: "\e604";
+}
+.ss-icon-flickr:before {
+	content: "\e605";
+}
+.ss-icon-flickr2:before {
+	content: "\e606";
+}
+.ss-icon-dribbble:before {
+	content: "\e607";
+}
+.ss-icon-skype:before {
+	content: "\e608";
+}
+.ss-icon-linkedin:before {
+	content: "\e609";
+}
+.ss-icon-stumbleupon:before {
+	content: "\e60a";
+}
+.ss-icon-pinterest:before {
+	content: "\e60b";
+}
